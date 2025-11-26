@@ -163,7 +163,6 @@ export class FibonacciService {
         }
         const endTime = performance.now();
         const elapsedTime = endTime - startTime;
-        console.log(`buildFrequencySnapshot took ${elapsedTime}ms`);
 
         return snapshot;
     }
